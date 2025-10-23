@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Small & Special by Luís Pedro</title>
+  <meta name="description" content="Velas artesanais feitas por um jovem artista de 11 anos. Cada criação é única e feita para iluminar momentos felizes com luz, cor e um toque de alegria.">
+  <style>
+    :root {
+      --bg:#fff8f1;
+      --fg:#2d2a26;
+      --brand:#f39c12;
+      --chip:#ffe5b4;
+      --fb:#5b78c7;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,'Apple Color Emoji','Segoe UI Emoji';color:var(--fg);background:var(--bg);line-height:1.6}
+    header{padding:26px 16px 14px;display:flex;justify-content:center}
+    .card{width:100%;max-width:1100px;background:#fff;border:1px solid #eee;border-radius:20px;box-shadow:0 8px 20px rgba(0,0,0,.06);overflow:hidden}
+    .hero{display:grid;grid-template-columns: 160px 1fr;gap:18px;padding:22px 24px 10px;align-items:center}
+    @media (max-width: 720px){.hero{grid-template-columns:1fr} .logo-wrap{justify-self:center} }
+    .logo-img{width:160px;max-width:100%;height:auto;display:block;filter:contrast(0.9)}
+    h1{margin:0;font-size:clamp(26px,4.4vw,40px);font-weight:800;letter-spacing:.2px;line-height:1.12}
+    h1 .small{color:#e57373} h1 .and{color:#64b5f6} h1 .special{color:#81c784} h1 .by{color:#ffb74d;font-weight:700}
+    p.lead{margin:8px 0 0;font-size:clamp(15px,2.2vw,18px);color:#504a45}
+    .cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+    .btn{padding:12px 16px;border-radius:12px;border:1px solid #e6e2dd;background:#fff;text-decoration:none;color:#2d2a26;font-weight:700;transition:.15s transform, .15s box-shadow}
+    .btn:hover{transform:translateY(-1px);box-shadow:0 4px 12px rgba(0,0,0,.06)}
+    .btn.primary{background:var(--brand);border-color:#e0a94f}
+    .btn.fb{background:var(--fb);border-color:#4e67a9;color:#fff;font-size:clamp(14px,2.2vw,18px)}
+    .btn.fb svg{vertical-align:-2px;margin-right:6px}
+    .chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+    .chip{background:var(--chip);padding:6px 10px;border-radius:999px;font-size:14px;border:1px solid #ffd9a1}
+
+    .panel{background:#fff;border-top:1px solid #f1ece6;padding:20px 24px;display:grid;gap:12px}
+    .about{display:grid;grid-template-columns:120px 1fr;gap:16px;align-items:center}
+    @media (max-width:560px){.about{grid-template-columns:1fr}}
+    .avatar{width:110px;height:110px;border-radius:50%;object-fit:cover;border:3px solid #ffe0a6}
+    .section-title{font-weight:800;letter-spacing:.2px}
+    .grid{display:grid;gap:14px;grid-template-columns:repeat(3,1fr)}
+    @media(max-width:920px){.grid{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:560px){.grid{grid-template-columns:1fr}}
+    figure{margin:0;border:1px solid #eee;border-radius:14px;overflow:hidden;background:#fff}
+    figure img{width:100%;display:block;height:240px;object-fit:cover}
+    figcaption{padding:8px 10px;font-size:14px;color:#6b655f}
+    .order{text-align:center;padding:18px 24px}
+    .order .btn{padding:14px 18px}
+    .bar{background:#fff3e0;border-top:1px dashed #f7d9a8;padding:10px 16px;text-align:center;font-size:14px}
+    footer{text-align:center;color:#766f67;font-size:14px;padding:24px 10px 36px}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="card">
+      <div class="hero">
+        <div class="logo-wrap">
+          <img src="images/logo.png" alt="Logótipo Small & Special by Luís Pedro" class="logo-img">
+        </div>
+        <div>
+          <h1><span class="small">Small</span> <span class="and">&</span> <span class="special">Special</span> <span class="by">by Luís Pedro</span></h1>
+          <p class="lead"><strong>Velas artesanais feitas com carinho por um jovem artista de 11 anos.</strong><br>
+          Cada criação é única e feita para <strong>iluminar momentos felizes com luz, cor e um toque de alegria.</strong></p>
+          <div class="cta">
+            <a class="btn fb" href="https://www.facebook.com/search/top?q=Small%20%26%20Special%20by%20Lu%C3%ADs%20Pedro" target="_blank" rel="noopener" aria-label="Follow me on Facebook">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 12.07C22 6.48 17.52 2 11.93 2S1.86 6.48 1.86 12.07c0 5.02 3.66 9.19 8.44 9.98v-7.06H7.96v-2.92h2.34V9.84c0-2.31 1.37-3.58 3.47-3.58.99 0 2.03.18 2.03.18v2.25H14.8c-1.2 0-1.57.75-1.57 1.52v1.83h2.67l-.43 2.92h-2.24v7.06c4.78-.79 8.44-4.96 8.44-9.98z"/></svg>
+              Follow me on Facebook
+            </a>
+            <a class="btn" href="mailto:smallspecialbyluispedro@gmail.com">smallspecialbyluispedro@gmail.com</a>
+          </div>
+          <div class="chips">
+            <div class="chip">Aromas suaves</div>
+            <div class="chip">Feito à mão</div>
+            <div class="chip">Peças únicas</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel about">
+        <img src="images/luis.jpg" alt="Fotografia de Luís Pedro" class="avatar">
+        <p>Olá! Sou o <strong>Luís Pedro</strong>, tenho 11 anos e adoro transformar criatividade em velas que tornam cada momento especial. Sou um estudante que gosta de jogar xadrez e de criar velas únicas, feitas com muito carinho. Elas trazem alegria à minha família e aos meus amigos — e espero que tragam também um sorriso a ti!</p>
+      </div>
+
+      <div class="panel">
+        <div class="section-title">Velas de Natal</div>
+        <div class="grid">
+          <figure>
+            <img src="images/natal1.jpg" alt="Coleção de velas de Natal">
+            <figcaption>Coleção de velas de Natal</figcaption>
+          </figure>
+          <figure>
+            <img src="images/natal2.jpg" alt="Vela rústica de Natal com detalhes naturais">
+            <figcaption>Vela rústica com detalhes naturais</figcaption>
+          </figure>
+          <figure>
+            <img src="images/natal3.jpg" alt="Conjunto de velas rústicas de Natal">
+            <figcaption>Conjunto rústico de Natal</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="section-title">Miminhos de Natal para Oferecer</div>
+        <div class="grid">
+          <figure>
+            <img src="images/sacos.jpg" alt="Sacos de tecido temáticos de Natal para oferecer">
+            <figcaption>Sacos de tecido temáticos de Natal</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="section-title">Velas Temáticas Diversas</div>
+        <div class="grid">
+          <figure>
+            <img src="images/temas.jpg" alt="Velas em latas com padrões e temas diversos">
+            <figcaption>Velas com padrões e temas diversos</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="section-title">Próximos Mercados de Natal</div>
+        <div class="grid">
+          <figure>
+            <img src="images/market1.jpg" alt="Christmas Market - Caldas da Rainha, Arneirense">
+            <figcaption>Caldas da Rainha — Arneirense • 29 Nov: 11h–21h • 30 Nov: 10h–19h</figcaption>
+          </figure>
+          <figure>
+            <img src="images/market2.jpg" alt="Christmas Market - Quinta do Sanguinhal">
+            <figcaption>Quinta do Sanguinhal • 6–7 Dezembro</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="section-title">Preços</div>
+        <ul class="note" style="margin:0 0 6px 16px">
+          <li><strong>Vela em caixa metálica + saco de tecido:</strong> 4€</li>
+          <li><strong>Vela em suporte de madeira:</strong> 4€</li>
+          <li><strong>Conjunto bloco de Natal + caneta de Natal:</strong> 3€</li>
+          <li><strong>Conjunto creme para as mãos + bálsamo para lábios + saco de tecido:</strong> 4€</li>
+          <li><strong>Capa de tecido para garrafas:</strong> 4€</li>
+        </ul>
+        <p class="note" style="margin:0">Mais novidades em breve!</p>
+      </div>
+
+      <div class="panel order">
+        <a class="btn primary" href="mailto:smallspecialbyluispedro@gmail.com?subject=Encomenda%20de%20velas%20artesanais&body=Ol%C3%A1%20Lu%C3%ADs%20Pedro!%20Gostava%20de%20encomendar%20algumas%20das%20tuas%20velas." aria-label="Encomenda por e-mail">
+          Encomenda aqui (ao envio por correio acrescem portes)
+        </a>
+      </div>
+
+      <div class="bar">Feito com ❤ em Portugal • Small & Special by Luís Pedro</div>
+    </div>
+  </header>
+  <footer>© <span id="y"></span> Small & Special by Luís Pedro. Todos os direitos reservados.</footer>
+  <script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>
